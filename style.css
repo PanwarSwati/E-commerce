@@ -1,0 +1,133 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color:black;
+  padding: auto;
+ 
+}
+
+.navbar ul{
+  overflow:auto;
+}
+  
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+    
+  }
+  
+  .navbar li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+    margin:auto;
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(201, 198, 198); 
+  }
+
+  .navbar input{
+    border: 2px solid black;
+    border-radius:4px;
+    padding: 6px;
+    margin: 13px;
+
+  }
+
+  .search{
+    color:#dfbdfa;
+    float: right;
+    padding: 2px 3px;
+   border-radius:15px;
+    margin:2px 3px;
+            
+
+  }
+  
+  
+  .active{
+      background-color:aquamarine;
+  }
+
+
+    .main2{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    flex-direction: row;
+    background-color:black;
+   
+     
+  }  
+  .top1{
+     background-image: url(img/pic2.jpg);
+     width: 100%;
+     color:white;
+    text-align: center;
+    
+  }
+/* .top2{  
+  border:2px solid white;
+   margin-top:0px;
+  padding: 50px;
+  width: 45%;
+  color:black;
+   */
+
+
+
+
+ .buttom{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20%;
+  height: auto;
+  
+}
+ .section{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  padding: 20%;
+  height: auto;
+ }
+
+
+  .product {
+    border: 1px solid #ddd;
+    padding: 20Px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    width: 25%; 
+  } 
+
+  .footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .footerleft {
+    background-color:#333;
+    color:aqua;
+    text-align: left;
+    padding-left:15px ;
+    width: 100%;
+  } 
